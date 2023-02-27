@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.header{
+    background-color: darkslategray;
+    border: 3px solid #91e509;
+    font-family:"Baskerville Old Face";
+    align-content: center;
+    font-weight: bold;
+    font-size: large;
+    position: center;
+    color:silver;
+    width: 250px;
+    padding: 15px;
+    margin: 0 auto;
+    top: 30px;
+}
+#calculator {
+    background-color: darkslategray;
+    border: 2px solid #91e509;
+    width: 250px;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+.row {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(77, 140, 154);
+    color: #fff;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+#display {
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin: 10px;
+    overflow:hidden;
+    border: 2px solid #91e509;;
+    padding: 0px 5px 0px 5px;
+}
+.operator {
+    background-color: #91e509;
+    font-size: 34px;
+}
+#equals{
+    width: 230px;
+    border-radius: 20px;
+}
